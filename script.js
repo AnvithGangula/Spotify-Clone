@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Akshath - Nadaaniyan ", filePath: "songs/1.mp3", coverPath: "covers/1.jpeg"},
+    {songName: "Akhiyaan Gulaab (Song): Shahid Kapoor, Kriti Sanon ", filePath: "songs/2.mp3", coverPath: "covers/2.jpeg"},
+    {songName: "Malang (Title Track)| Aditya Roy Kapur, Disha Patani", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Vilen - Chidiya ", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Vachindamma Full Video Song || Geetha Govindam Songs || Vijay Devarakonda, Rashmika Mandanna", filePath: "songs/5.mp3", coverPath: "covers/5.jpeg"},
+    {songName: "Oopiri Aguthunnadhey Video Song | Arjun Reddy Video Songs | Vijay Deverakonda | Shalini", filePath: "songs/2.mp3", coverPath: "covers/6.jpeg"},
+    {songName: "Full Video: Nanna Nuv Naa Pranam | ANIMAL | Ranbir K,Rashmika | Sonu Nigam,AnanthaS |Sandeep Reddy V", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "ANIMAL (Telugu) Ney Veyrey : Ranbir Kapoor,Rashmika M | Karthik,ShreyasP, AnanthaS | Sandeep Reddy V", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Chitti Adugu Full Video | Most Eligible Bachelor | Akhil, Pooja Hegde | Gopi Sundar", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Na JPathu Thala - Nee Singam Dhan Video | Silambarasan TR | A. R Rahman | Gautham Karthikaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.png"},
 ]
 
 songItems.forEach((element, i)=>{ 
