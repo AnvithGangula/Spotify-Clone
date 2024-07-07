@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
     background-color: antiquewhite;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -14,8 +15,8 @@ nav{
 
 nav ul{
     display: flex;
-    list-style-type: none;
     align-items: center;
+    list-style-type: none;
     height: 65px;
     background-color: black;
     color: white;
@@ -29,7 +30,7 @@ nav ul li{
     padding: 0 8px;
 }
 
-.brand{
+.brand {
     display: flex;
     align-items: center;
     font-weight: bolder;
@@ -40,46 +41,48 @@ nav ul li{
     min-height: 72vh;
     background-color: black;
     color: white;
-    font-family: 'Verdana Round', sens-serif;
-    display: flex;
-    margin: 23px auto;
-    width: 70%;
-    border-radius: 12px;
-    padding: 34px;
-    background-image: url('bg.jpg');
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg.jpg');
 }
+
 .bottom{
     position: sticky;
+    bottom: 0;
     height: 130px;
     background-color: black;
     color: white;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .icons{
-    margin-top: 14px;
+    margin-top: 14px; 
 }
-
 .icons i{
     cursor: pointer;
 }
 
 #myProgressBar{
-    width: 80vw;
+    width: 80vw; 
     cursor: pointer;
 }
 
 .songItemContainer{
     margin-top: 74px;
 }
+
 .songItem{
     height: 50px;
     display: flex;
     background-color: white;
+    
     color: black;
     margin: 12px 0;
     justify-content: space-between;
@@ -101,13 +104,19 @@ nav ul li{
     cursor: pointer;
 }
 
-.songinfo{
+.songInfo{
     position: absolute;
     left: 10vw;
-    font-family: 'Verdana Round', sens-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
-.songinfo img{
+.songInfo img{
     opacity: 0;
-    transition: opacity ls ease-in;
+    transition: opacity 0.4s ease-in;
 }
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
